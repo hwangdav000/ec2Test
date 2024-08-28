@@ -10,4 +10,9 @@ public class MyController {
 		public String sayHello() {
 			return "API HEALTH good";
 		}
+		
+		@RequestMapping("api/ping")
+		public String sayPing() {
+			return "Server responds good";
+		}
 }
